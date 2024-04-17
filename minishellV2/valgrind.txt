@@ -1,0 +1,282 @@
+==25665== Memcheck, a memory error detector
+==25665== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==25665== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==25665== Command: ./minishell
+==25665== Parent PID: 25649
+==25665== 
+==25667== 
+==25667== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25667== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25667==    <inherited from parent>
+==25667== 
+==25667== 
+==25667== HEAP SUMMARY:
+==25667==     in use at exit: 208,260 bytes in 228 blocks
+==25667==   total heap usage: 800 allocs, 572 frees, 247,370 bytes allocated
+==25667== 
+==25667== LEAK SUMMARY:
+==25667==    definitely lost: 0 bytes in 0 blocks
+==25667==    indirectly lost: 0 bytes in 0 blocks
+==25667==      possibly lost: 0 bytes in 0 blocks
+==25667==    still reachable: 0 bytes in 0 blocks
+==25667==         suppressed: 208,260 bytes in 228 blocks
+==25667== 
+==25667== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25667-- 
+--25667-- used_suppression:     62 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,165 bytes in 221 blocks
+--25667-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,095 bytes in 7 blocks
+==25667== 
+==25667== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25752== 
+==25752== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25752== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25752==    <inherited from parent>
+==25752== 
+==25752== 
+==25752== HEAP SUMMARY:
+==25752==     in use at exit: 208,300 bytes in 231 blocks
+==25752==   total heap usage: 819 allocs, 588 frees, 247,638 bytes allocated
+==25752== 
+==25752== LEAK SUMMARY:
+==25752==    definitely lost: 0 bytes in 0 blocks
+==25752==    indirectly lost: 0 bytes in 0 blocks
+==25752==      possibly lost: 0 bytes in 0 blocks
+==25752==    still reachable: 0 bytes in 0 blocks
+==25752==         suppressed: 208,300 bytes in 231 blocks
+==25752== 
+==25752== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25752-- 
+--25752-- used_suppression:     62 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,165 bytes in 221 blocks
+--25752-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,135 bytes in 10 blocks
+==25752== 
+==25752== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25754== 
+==25754== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25754== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25754==    <inherited from parent>
+==25754== 
+==25754== 
+==25754== HEAP SUMMARY:
+==25754==     in use at exit: 208,379 bytes in 237 blocks
+==25754==   total heap usage: 860 allocs, 623 frees, 248,115 bytes allocated
+==25754== 
+==25754== LEAK SUMMARY:
+==25754==    definitely lost: 0 bytes in 0 blocks
+==25754==    indirectly lost: 0 bytes in 0 blocks
+==25754==      possibly lost: 0 bytes in 0 blocks
+==25754==    still reachable: 0 bytes in 0 blocks
+==25754==         suppressed: 208,379 bytes in 237 blocks
+==25754== 
+==25754== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25754-- 
+--25754-- used_suppression:     62 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,165 bytes in 221 blocks
+--25754-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,214 bytes in 16 blocks
+==25754== 
+==25754== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25809== 
+==25809== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25809== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25809==    <inherited from parent>
+==25809== 
+==25809== 
+==25809== HEAP SUMMARY:
+==25809==     in use at exit: 208,563 bytes in 249 blocks
+==25809==   total heap usage: 878 allocs, 629 frees, 277,226 bytes allocated
+==25809== 
+==25809== LEAK SUMMARY:
+==25809==    definitely lost: 0 bytes in 0 blocks
+==25809==    indirectly lost: 0 bytes in 0 blocks
+==25809==      possibly lost: 0 bytes in 0 blocks
+==25809==    still reachable: 0 bytes in 0 blocks
+==25809==         suppressed: 208,563 bytes in 249 blocks
+==25809== 
+==25809== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25809-- 
+--25809-- used_suppression:     65 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,235 bytes in 227 blocks
+--25809-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,328 bytes in 22 blocks
+==25809== 
+==25809== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25853== 
+==25853== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25853== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25853==    <inherited from parent>
+==25853== 
+==25853== 
+==25853== HEAP SUMMARY:
+==25853==     in use at exit: 208,663 bytes in 255 blocks
+==25853==   total heap usage: 953 allocs, 698 frees, 311,258 bytes allocated
+==25853== 
+==25853== LEAK SUMMARY:
+==25853==    definitely lost: 0 bytes in 0 blocks
+==25853==    indirectly lost: 0 bytes in 0 blocks
+==25853==      possibly lost: 0 bytes in 0 blocks
+==25853==    still reachable: 0 bytes in 0 blocks
+==25853==         suppressed: 208,663 bytes in 255 blocks
+==25853== 
+==25853== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25853-- 
+--25853-- used_suppression:     65 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,235 bytes in 227 blocks
+--25853-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,428 bytes in 28 blocks
+==25853== 
+==25853== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25854== 
+==25854== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25854== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25854==    <inherited from parent>
+==25854== 
+==25854== 
+==25854== HEAP SUMMARY:
+==25854==     in use at exit: 208,732 bytes in 260 blocks
+==25854==   total heap usage: 984 allocs, 724 frees, 311,741 bytes allocated
+==25854== 
+==25854== LEAK SUMMARY:
+==25854==    definitely lost: 0 bytes in 0 blocks
+==25854==    indirectly lost: 0 bytes in 0 blocks
+==25854==      possibly lost: 0 bytes in 0 blocks
+==25854==    still reachable: 0 bytes in 0 blocks
+==25854==         suppressed: 208,732 bytes in 260 blocks
+==25854== 
+==25854== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25854-- 
+--25854-- used_suppression:     67 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,298 bytes in 232 blocks
+--25854-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,434 bytes in 28 blocks
+==25854== 
+==25854== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25855== 
+==25855== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25855== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25855==    <inherited from parent>
+==25855== 
+==25855== 
+==25855== HEAP SUMMARY:
+==25855==     in use at exit: 208,747 bytes in 261 blocks
+==25855==   total heap usage: 1,003 allocs, 742 frees, 312,009 bytes allocated
+==25855== 
+==25855== LEAK SUMMARY:
+==25855==    definitely lost: 0 bytes in 0 blocks
+==25855==    indirectly lost: 0 bytes in 0 blocks
+==25855==      possibly lost: 0 bytes in 0 blocks
+==25855==    still reachable: 0 bytes in 0 blocks
+==25855==         suppressed: 208,747 bytes in 261 blocks
+==25855== 
+==25855== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25855-- 
+--25855-- used_suppression:     65 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,273 bytes in 230 blocks
+--25855-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,474 bytes in 31 blocks
+==25855== 
+==25855== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25856== 
+==25856== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25856== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25856==    <inherited from parent>
+==25856== 
+==25856== 
+==25856== HEAP SUMMARY:
+==25856==     in use at exit: 208,874 bytes in 269 blocks
+==25856==   total heap usage: 1,060 allocs, 791 frees, 312,939 bytes allocated
+==25856== 
+==25856== LEAK SUMMARY:
+==25856==    definitely lost: 0 bytes in 0 blocks
+==25856==    indirectly lost: 0 bytes in 0 blocks
+==25856==      possibly lost: 0 bytes in 0 blocks
+==25856==    still reachable: 0 bytes in 0 blocks
+==25856==         suppressed: 208,874 bytes in 269 blocks
+==25856== 
+==25856== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25856-- 
+--25856-- used_suppression:     67 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,298 bytes in 232 blocks
+--25856-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,576 bytes in 37 blocks
+==25856== 
+==25856== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25857== 
+==25857== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25857== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25857==    <inherited from parent>
+==25857== 
+==25857== 
+==25857== HEAP SUMMARY:
+==25857==     in use at exit: 209,222 bytes in 278 blocks
+==25857==   total heap usage: 1,120 allocs, 842 frees, 314,078 bytes allocated
+==25857== 
+==25857== LEAK SUMMARY:
+==25857==    definitely lost: 0 bytes in 0 blocks
+==25857==    indirectly lost: 0 bytes in 0 blocks
+==25857==      possibly lost: 0 bytes in 0 blocks
+==25857==    still reachable: 0 bytes in 0 blocks
+==25857==         suppressed: 209,222 bytes in 278 blocks
+==25857== 
+==25857== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25857-- 
+--25857-- used_suppression:     70 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,606 bytes in 238 blocks
+--25857-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,616 bytes in 40 blocks
+==25857== 
+==25857== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25858== 
+==25858== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25858== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25858==    <inherited from parent>
+==25858== 
+==25858== 
+==25858== HEAP SUMMARY:
+==25858==     in use at exit: 209,309 bytes in 284 blocks
+==25858==   total heap usage: 1,177 allocs, 893 frees, 380,536 bytes allocated
+==25858== 
+==25858== LEAK SUMMARY:
+==25858==    definitely lost: 0 bytes in 0 blocks
+==25858==    indirectly lost: 0 bytes in 0 blocks
+==25858==      possibly lost: 0 bytes in 0 blocks
+==25858==    still reachable: 0 bytes in 0 blocks
+==25858==         suppressed: 209,309 bytes in 284 blocks
+==25858== 
+==25858== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--25858-- 
+--25858-- used_suppression:     70 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,606 bytes in 238 blocks
+--25858-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,703 bytes in 46 blocks
+==25858== 
+==25858== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==25861== 
+==25861== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25861== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25861==    <inherited from parent>
+==25861== 
+==25861== 
+==25861== HEAP SUMMARY:
+==25861==     in use at exit: 209,527 bytes in 298 blocks
+==25861==   total heap usage: 1,372 allocs, 1,074 frees, 385,664 bytes allocated
+==25861== 
+==25861== LEAK SUMMARY:
+==25861==    definitely lost: 0 bytes in 0 blocks
+==25861==    indirectly lost: 0 bytes in 0 blocks
+==25861==      possibly lost: 0 bytes in 0 blocks
+==25861==    still reachable: 0 bytes in 0 blocks
+==25861==         suppressed: 209,527 bytes in 298 blocks
+==25861== 
+==25861== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 1 from 1)
+--25861-- 
+--25861-- used_suppression:     69 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,613 bytes in 237 blocks
+--25861-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 4,914 bytes in 61 blocks
+==25861== 
+==25861== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 1 from 1)
+==25665== 
+==25665== FILE DESCRIPTORS: 4 open (3 std) at exit.
+==25665== Open file descriptor 3: /mnt/c/Users/33782/Desktop/depot_git/v4/minishell/nouveau/valgrind.txt
+==25665==    <inherited from parent>
+==25665== 
+==25665== 
+==25665== HEAP SUMMARY:
+==25665==     in use at exit: 209,664 bytes in 304 blocks
+==25665==   total heap usage: 1,431 allocs, 1,127 frees, 384,444 bytes allocated
+==25665== 
+==25665== LEAK SUMMARY:
+==25665==    definitely lost: 0 bytes in 0 blocks
+==25665==    indirectly lost: 0 bytes in 0 blocks
+==25665==      possibly lost: 0 bytes in 0 blocks
+==25665==    still reachable: 0 bytes in 0 blocks
+==25665==         suppressed: 209,664 bytes in 304 blocks
+==25665== 
+==25665== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 1 from 1)
+--25665-- 
+--25665-- used_suppression:     69 leak readline valgrind_ignore_leaks.txt:2 suppressed: 204,613 bytes in 237 blocks
+--25665-- used_suppression:      4 leak add_history valgrind_ignore_leaks.txt:8 suppressed: 5,051 bytes in 67 blocks
+==25665== 
+==25665== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 1 from 1)

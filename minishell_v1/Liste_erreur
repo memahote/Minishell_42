@@ -1,0 +1,10 @@
+126 : La commande n'est pas exécutable.
+127 : La commande n'a pas été trouvée.
+128 : Erreur de script (comme un appel à exit 128+n).
+130 : Script interrompu par l'utilisateur (souvent avec Ctrl+C).
+1 : Erreur générique.
+2 : Erreur de syntaxe.
+126 : Impossible d'exécuter la commande spécifiée.
+127 : Commande introuvable.
+128 : Mauvais argument pour exit.
+128+n : Signal de terminaison (où n est le numéro du signal).
